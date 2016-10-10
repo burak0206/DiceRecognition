@@ -1,0 +1,21 @@
+﻿Build started 8.10.2016 21:00:47.
+     1>Project "C:\Users\burak.dagli\Desktop\dice-recognition\dice-recognition\dice-recognition.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Tools\opencv-3.1.0\build\include" /Zi /nologo /W3 /WX- /sdl /Od /D "WIN32" /D _DEBUG /D _CONSOLE /D "_LIB" /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt MyDiceRecognizer.cpp PerformanceMeter.cpp
+         PerformanceMeter.cpp
+     1>PerformanceMeter.cpp(104): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         MyDiceRecognizer.cpp
+     1>MyDiceRecognizer.cpp(57): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\burak.dagli\Desktop\dice-recognition\x64\Debug\dice-recognition.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Tools\opencv-3.1.0\build\x64\vc12\lib" opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\burak.dagli\Desktop\dice-recognition\x64\Debug\dice-recognition.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\burak.dagli\Desktop\dice-recognition\x64\Debug\dice-recognition.lib" /MACHINE:X64 x64\Debug\KMeans.obj
+         x64\Debug\main.obj
+         x64\Debug\MyDiceRecognizer.obj
+         x64\Debug\PerformanceMeter.obj
+         x64\Debug\RandomDiceRecognizer.obj
+         dice-recognition.vcxproj -> C:\Users\burak.dagli\Desktop\dice-recognition\x64\Debug\dice-recognition.exe
+     1>Done Building Project "C:\Users\burak.dagli\Desktop\dice-recognition\dice-recognition\dice-recognition.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.66
